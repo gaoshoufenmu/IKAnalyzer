@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<dictionaries>
+  <comment>IK Analyzer Extension Configuration</comment>
+  <!-- Custom ext-dict can be set here -->
+  <dictionary key="ext_dict">ext.dict;mydict.dic;single_word_low_freq.dic;sougou.dic</dictionary>
+  
+  <!-- Custom ext-stopword-dict can be set here -->
+  <dictionary key="ext_stopword">stopword.dict;ext_stopword.dic</dictionary>
+</dictionaries>
