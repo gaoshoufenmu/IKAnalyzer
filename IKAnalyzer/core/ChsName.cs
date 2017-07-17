@@ -210,7 +210,7 @@ namespace IKAnalyzer.core
                     if(_SingleNameDict.Contains(f2))
                     {
                         nm.IsName = true;
-                        nm.Candidates.Add(text);
+                        nm.Candidates.Add($"{f1}/{f2}");
                     }
                 }
                 else if(text.Length == 3)
@@ -219,7 +219,7 @@ namespace IKAnalyzer.core
                     {
                         nm.IsName = true;
                         nm.IsStrong = true;
-                        nm.Candidates.Add(text);
+                        nm.Candidates.Add($"{f1}/{text.Substring(1)}");
                     }
                 }
             }
@@ -231,7 +231,7 @@ namespace IKAnalyzer.core
                     {
                         nm.IsName = true;
                         nm.IsStrong = true;
-                        nm.Candidates.Add(text);
+                        nm.Candidates.Add($"{text.Substring(0, 2)}/{text[2]}");
                     }
                 }
                 else if (text.Length == 4)
@@ -240,7 +240,7 @@ namespace IKAnalyzer.core
                     {
                         nm.IsName = true;
                         nm.IsStrong = true;
-                        nm.Candidates.Add(text);
+                        nm.Candidates.Add($"{text.Substring(0, 2)}/{text.Substring(2)}");
                     }
                 }
             }

@@ -21,8 +21,8 @@ namespace IKAnalyzer.cfg
 
         //! ------------------------- 中文人名字典路径 -----------------------------------
         public string ChsSingleNameFileName { get => ROOT_DIR + "/resource/ChsSingleName.txt"; }
-        public string ChsDoubleName1FileName { get => "/resource/ChsDoubleName1.txt"; }
-        public string ChsDoubleName2FileName { get => "/resource/ChsDoubleName2.txt"; }
+        public string ChsDoubleName1FileName { get => ROOT_DIR + "/resource/ChsDoubleName1.txt"; }
+        public string ChsDoubleName2FileName { get => ROOT_DIR + "/resource/ChsDoubleName2.txt"; }
 
         private XmlDocument _xmlDoc;
 
