@@ -19,6 +19,10 @@ namespace IKAnalyzer.cfg
         private const string CONFIG_FILE_PATH = "/resource/IKAnalyzer.cfg.xml";
         private const string CHS_AREA_PATH = "/resource/chs_area.txt";
 
+        //! ------------------------- 中文人名字典路径 -----------------------------------
+        public string ChsSingleNameFileName { get => ROOT_DIR + "/resource/ChsSingleName.txt"; }
+        public string ChsDoubleName1FileName { get => "/resource/ChsDoubleName1.txt"; }
+        public string ChsDoubleName2FileName { get => "/resource/ChsDoubleName2.txt"; }
 
         private XmlDocument _xmlDoc;
 

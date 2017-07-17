@@ -44,6 +44,7 @@
     <Compile Include="cfg\DefaultConfig.cs" />
     <Compile Include="cfg\IConfig.cs" />
     <Compile Include="core\CHSArea.cs" />
+    <Compile Include="core\ChsName.cs" />
     <Compile Include="core\CNQuantSegmenter.cs" />
     <Compile Include="core\EnglishSegmenter.cs" />
     <Compile Include="core\AnalyzeContext.cs" />
@@ -94,6 +95,15 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="resource\ChsDoubleName1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resource\ChsDoubleName2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resource\ChsSingleName.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="resource\chs_area.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
