@@ -18,6 +18,7 @@ namespace IKAnalyzer.cfg
         private const string QUANT_DICT_PATH = "/resource/quantifier.dict";
         private const string CONFIG_FILE_PATH = "/resource/IKAnalyzer.cfg.xml";
         private const string CHS_AREA_PATH = "/resource/chs_area.txt";
+        private const string HIGH_FREQ_PATH = "/resource/HighFreqWords.txt";
 
         //! ------------------------- 中文人名字典路径 -----------------------------------
         public string ChsSingleNameFileName { get => ROOT_DIR + "/resource/ChsSingleName.txt"; }
@@ -83,5 +84,6 @@ namespace IKAnalyzer.cfg
         public string QuantDictPath { get => ROOT_DIR + QUANT_DICT_PATH; }
 
         public string CHSAreaPath { get => ROOT_DIR + CHS_AREA_PATH; }
+        public string HighFreqPath => ROOT_DIR + HIGH_FREQ_PATH;
     }
 }

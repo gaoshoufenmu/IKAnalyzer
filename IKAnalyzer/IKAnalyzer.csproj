@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>IKAnalyzer</RootNamespace>
     <AssemblyName>IKAnalyzer</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -45,18 +45,23 @@
     <Compile Include="cfg\IConfig.cs" />
     <Compile Include="core\CHSArea.cs" />
     <Compile Include="core\ChsName.cs" />
+    <Compile Include="core\ByteArray.cs" />
     <Compile Include="core\CNQuantSegmenter.cs" />
+    <Compile Include="core\Comparer.cs" />
+    <Compile Include="core\DAT.cs" />
     <Compile Include="core\EnglishSegmenter.cs" />
     <Compile Include="core\AnalyzeContext.cs" />
     <Compile Include="core\CharUtil.cs" />
     <Compile Include="core\CJKSegmenter.cs" />
     <Compile Include="core\DictTrie.cs" />
+    <Compile Include="core\HighFreqTerms.cs" />
     <Compile Include="core\Hit.cs" />
     <Compile Include="core\IKArbitrator.cs" />
     <Compile Include="core\IKSegmenter.cs" />
     <Compile Include="core\ISegment.cs" />
     <Compile Include="core\Lexeme.cs" />
     <Compile Include="core\LexemePath.cs" />
+    <Compile Include="core\Predefine.cs" />
     <Compile Include="core\QuickSortSet.cs" />
     <Compile Include="core\Trie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
